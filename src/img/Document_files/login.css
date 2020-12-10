@@ -1,0 +1,27 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: skyblue;
+  display: flex;
+}
+
+.info {
+  margin: auto;
+}
+
+.info .login,
+.info .register {
+  display: inline;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+label.error {
+  color: red;
+}
+
+.login_error {
+  color: red;
+}
